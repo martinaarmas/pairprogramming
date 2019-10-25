@@ -1,5 +1,6 @@
 # Sorting dictionary
 ##### By: Martina Armas and Marie Gruenghagen
+![dictionaryimage](https://en.wikipedia.org/wiki/Definition#/media/File:Blacks-Law-Dictionary.jpg)
 ### Instructions
 * Project correctly formated in Github should contain: _(15 points)_
   * A decent README.md file with instructions and description of the project
