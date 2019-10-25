@@ -1,6 +1,6 @@
 # Sorting dictionary
 ##### By: Martina Armas and Marie Gruenghagen
-![dictionaryimage](https://upload.wikimedia.org/wikipedia/en/6/6f/Oxford_English_Dictionary_2nd.jpgg)
+![dictionaryimage](https://upload.wikimedia.org/wikipedia/en/6/6f/Oxford_English_Dictionary_2nd.jpg)
 ### Instructions
 * Project correctly formated in Github should contain: _(15 points)_
   * A decent README.md file with instructions and description of the project
