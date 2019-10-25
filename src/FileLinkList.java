@@ -17,7 +17,7 @@ public class FileLinkList
             Scanner sc = new Scanner(new FileInputStream(file));
             while (sc.hasNextLine()){
                 content = sc.nextLine();
-                list.add(content);
+                list.addFirst(content);
             }
             sc.close();
         }catch(FileNotFoundException fnf){
@@ -31,8 +31,10 @@ public class FileLinkList
         Collections.reverse(list);
         Iterator i = list.iterator();
         while (i.hasNext()) {
-            System.out.print("Node " + (count++) + " : ");
+            System.out.print((count++) + " : ");
             System.out.println(i.next());
         }
+
     }
+
 }
