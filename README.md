@@ -1,6 +1,6 @@
 # Sorting dictionary
 ##### By: Martina Armas and Marie Gruenghagen
-## Instructions
+### Instructions
 * Project correctly formated in Github should contain: (15 points)
   * A decent README.md file with instructions and description of the project
   * A proper .gitignore file
