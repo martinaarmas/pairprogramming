@@ -1,5 +1,5 @@
 # Sorting dictionary
-##### By: Martina Armas and Marie Gruenghagen
+##### By: Martina Armas and Marie Gruenhagen
 ![dictionaryimage](https://upload.wikimedia.org/wikipedia/en/6/6f/Oxford_English_Dictionary_2nd.jpg)
 ### Instructions
 * Project correctly formated in Github should contain: _(15 points)_
