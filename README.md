@@ -12,3 +12,5 @@
 * A Linked list should be used to hold the information of the sorted dictionary (15 points)
 * Arguments accepted as input when executing the app from the command line should generate the correct answers which will be printed out (10 points)
 * Bonus (extra points): For creating a faster way to search for words leveraging Linked list together with other structure, algorithm or variables: Up to 15 points
+
+### Our Solution
