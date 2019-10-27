@@ -1,6 +1,9 @@
 # Sorting dictionary
 ##### By: Martina Armas and Marie Gruenhagen
 ![dictionaryimage](https://upload.wikimedia.org/wikipedia/commons/4/4c/Collegiate_Dictionary.jpg)
+
+This repository contains the answer to a challenge in which given an unsorted txt file of words you needed to place them in alphabetical order creating a sorting algorithm to then store them in a new txt file. Once done, the user is able to look for words with their index and viceversa. To do this you need to run our program in Run Configuration and input the desired index or word.
+
 ### Instructions
 * Project correctly formated in Github should contain: _(15 points)_
   * A decent README.md file with instructions and description of the project
@@ -17,7 +20,8 @@
 ### Our Solution
 * Summarizing the project
   * We created the Linked Dictionary
-  * We created different classes (add)
+  * We created different classes
+   *
 * Instructions on how to set it
 up
 * It details the main aspects of
