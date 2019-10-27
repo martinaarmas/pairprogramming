@@ -20,8 +20,10 @@ This repository contains the answer to a challenge in which given an unsorted tx
 ### Our Solution
 * Summarizing the project
   * We created the Linked Dictionary
-  * We created different classes
-   *
+  * We created different files and classes
+   * README.md
+   * Linked Dictionary
+   * Unsorted List
 * Instructions on how to set it
 up
 * It details the main aspects of
