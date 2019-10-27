@@ -1,6 +1,6 @@
 # Sorting dictionary
 ##### By: Martina Armas and Marie Gruenhagen
-![dictionaryimage](https://en.wikipedia.org/wiki/Dictionary#/media/File:Vocabolario_degli_accademici_della_crusca,_prima_edizione_per_giovanni_alberti,_venezia_1612,_01.jpg)
+![dictionaryimage](https://upload.wikimedia.org/wikipedia/commons/4/4c/Collegiate_Dictionary.jpg)
 ### Instructions
 * Project correctly formated in Github should contain: _(15 points)_
   * A decent README.md file with instructions and description of the project
