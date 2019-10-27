@@ -15,3 +15,14 @@
 * Bonus _(extra points)_: For creating a faster way to search for words leveraging Linked list together with other structure, algorithm or variables: _Up to 15 points_
 
 ### Our Solution
+* Summarizing the project
+  * We created the Linked Dictionary
+  * We created different classes (add)
+* Instructions on how to set it
+up
+* It details the main aspects of
+the project
+* Describe the best way to
+collaborate with the project
+ * IntelliJ works very slowly, so we worked with Eclipse
+* Are visually nice
