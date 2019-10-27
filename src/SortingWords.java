@@ -6,35 +6,31 @@ import java.util.LinkedList;
 public class SortingWords {
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new FileReader("unsorteddict.txt"));
+        BufferedReader reader2 = new BufferedReader(new FileReader("unsorteddict.txt"));
         String line = reader.readLine();
         int contador = 0;
-        while (line!=null){
+
+        while(line != null){
             line = reader.readLine();
             contador++;
         }
+        String []words = new String[contador];
+        for(int i=0; i<contador;i++){
+            words[i] = reader2.readLine();
+        }
+        for(String e : words){
+        }
+        sortwords (words);
+        for ( int k = 0;  k < 4;  k++ )
+            System.out.println( words [ k ] );
 
-        String [] words = new String[contador];
-        System.out.println(contador);
-        int i = 0;
-        BufferedReader.reset();
-        while (line!= null){
-            words[i]= reader.readLine();
-            i++;
-        }
-        for (i = 0; i<words.length ; i++)
-        {
-            System.out.println(words[i]);
-        }
-        String[] names = {"joe", "slim", "ed", "george"};
-        sortwords(names);
-        for (int k = 0; k < 4; k++)
-            System.out.println(names[k]);
+
     }
 
     public static void sortwords(String x[]) {
         int j;
         boolean flag = true;  // will determine when the sort is finished
-        String temp;
+        String temp = null;
 
         while (flag) {
             flag = false;
@@ -48,5 +44,6 @@ public class SortingWords {
             }
         }
     }
-}
 
+
+}
