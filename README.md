@@ -29,4 +29,4 @@ You are more than welcome to fork and clone this project to improve it.
 
 >By [Martina Armas](https://github.com/martinaarmas) and [Marie Gruenhagen](https://github.com/mariegruenhagen)
 
-We started working on IntelliJ, but some problems were presented, therefore we finished it on Eclipse.
+_We started working on IntelliJ, but some problems were presented, therefore we finished it on Eclipse._
