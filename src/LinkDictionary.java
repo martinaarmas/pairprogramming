@@ -17,14 +17,27 @@ public class LinkDictionary {
         }
     }
 
-    static int findIndex(LinkedList<String> words, String word) {
+    static int findIndex(LinkedList<String> words, String word) {// to run this you need to run it in "Run configurations"
         for(int i = 0; i < words.size(); i++) {
             if(word.equals(words.get(i))) {
                 return i;
             }
         }
         return -1;
-    }
+    }    //**  the following could work in intellij, the other code works on eclipse run configurations
+    // static int findIndex(LinkedList<String> words, String word) {
+    //    	System.out.println("Enter the word whose index you want: ");
+    //    	Scanner scan= new Scanner(System.in);
+    //    		String word1 =scan.nextLine();
+    //        for(int i = 0; i < words.size(); i++) {
+    //            if(word1.equals(words.get(i))) {
+    //                System.out.println (i);
+    //            }
+    //        }
+    //        return -1;
+    //    }
+    // */
+
 
     static LinkedList<String> listCreator(String filename) throws IOException {
         //reading in the file
@@ -58,7 +71,7 @@ public class LinkDictionary {
 
     static void write(String writeFile, LinkedList<String> words) throws IOException {
         FileWriter filewriter = new FileWriter(writeFile);
-        BufferedWriter bw = new BufferedWriter(filewriter);
+        BufferedWriter bw = new BufferedWriter(filewriter);//writes in the sorteddict
 
         for(int i = 0; i < words.size(); i++) {
             bw.write(words.get(i));
@@ -68,7 +81,7 @@ public class LinkDictionary {
         bw.close();
     }
 
-    static void printArguments(String[] args, LinkedList<String> words) {
+    static void printArguments(String[] args, LinkedList<String> words) {//print word with an input of the index
         for(int i = 0; i < args.length; i++) {
             String current = args[i];
             if(isInteger(current)) {
@@ -77,7 +90,7 @@ public class LinkDictionary {
                     System.out.println(words.get(num));
                 }
                 else {
-                    System.out.println("Out of range input");
+                    System.out.println("Out of range input");//if the inout is not valid for amount of words
                 }
             }
             else {
@@ -96,7 +109,7 @@ public class LinkDictionary {
         String writeFile = "/Users/martinaarmas/pairprogramming/sorteddict.txt";
         write(writeFile, words);
 
-        if(args.length > 10) {
+        if(args.length > 10) {// to accept maximum 10 args
             System.out.println("Too many arguments");
         }
         else {
