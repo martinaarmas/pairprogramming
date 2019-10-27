@@ -1,6 +1,6 @@
 # Sorting dictionary
 ##### By: Martina Armas and Marie Gruenhagen
-![dictionaryimage](https://en.wikipedia.org/wiki/Oxford_English_Dictionary#/media/File:OED2_volumes.jpg)
+![dictionaryimage](https://en.wikipedia.org/wiki/Dictionary#/media/File:Woerterbuchstapel_Langenscheidt.jpg)
 ### Instructions
 * Project correctly formated in Github should contain: _(15 points)_
   * A decent README.md file with instructions and description of the project
